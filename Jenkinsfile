@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Prod') {
       steps {
-        sh 'echo "Hello Sai'
+        sh 'echo "Hello Sai"'
         sh 'echo "Hello Jay"'
       }
     }
